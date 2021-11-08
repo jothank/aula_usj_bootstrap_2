@@ -1,47 +1,97 @@
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-.row {
+  }
+  
+  .row {
     margin: 0;
-}
-
-.container {
+  }
+  
+  .container {
     padding: 70px 0;
-}
-
-p, li {
+  }
+  
+  p, li {
     color: #444;
     font-size: 14px;
-}
-
-header, .navbar {
-    background-color: #353D41;
-}
-
-#nav-container {
+  }
+   
+  header, .navbar {
+    background-color: #222120;
+  }
+  
+  #nav-container {
     padding-top: 0;
     padding-bottom: 0;
-}
-
-#logo {
+  }
+  
+  #logo {
     width: 75px;
-}
-
-.navbar-brand {
+  }
+  
+  .navbar-brand {
     padding: 0;
-    color: #fff;
-}
-
-.navbar-brand:hover {
-    padding: 0;
-    color: #fff;
-}
-
-#navbar-links a {
-    color: #fff;
-}
-
-.navbar-expand-lg .navbar-nav .navbar-link {
+    color: #FFF;
+  }
+  
+  .navbar-brand:hover {
+    color: #FFF;
+  }
+  
+  #navbar-links a {
+    color: #FFF;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
     padding: 1rem .8rem;
-}
+  }
+  
+  .nav-item.active {
+    border-bottom: 3px solid #FFF;
+  }
+  
+  .container-fluid {
+    padding: 0;
+  }
+  
+  #mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 90vh;
+  }
+  
+  #mainSlider .carousel-caption {
+    top: 30%;
+  }
+  
+  #mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  
+  #mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #FFF;
+  }
+  
+  .main-btn {
+    background-color: #e84e0f;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+  }
+  
+  .main-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #e84e0f;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #e84e0f;
+  }
