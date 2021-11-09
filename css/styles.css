@@ -136,7 +136,7 @@ body {
     color: #e84e0f;
     margin-right: 15px;
   }
-  
+
   .service-box {
     text-align: center;
     margin-bottom: 50px;
@@ -159,4 +159,20 @@ body {
   
   .service-box:hover > i, .service-box:hover > h4 {
     color: #e84e0f;
+  }
+
+  .circle-box div {
+    padding: 0 40px;
+  }
+  
+  .progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+  }
+  
+  #data-area p {
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
   }
